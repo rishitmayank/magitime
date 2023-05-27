@@ -1,0 +1,13 @@
+import datetime
+
+
+today = datetime.date.today()
+holiday = datetime.date(year=2023, month=5,day=30)
+
+if holiday > today:
+  print("Coming soon")
+elif holiday < today:
+  print("Hope you enjoyed it")
+else:
+  print("HOLIDAY TIME!")
+  
